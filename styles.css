@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box-parent {
+    height: 500px;
+    width: 800px;
+}
+
+.box-top {
+    height: 200px;
+    width: 100%;
+    font-size: 0;
+}
+
+.box-top-left {
+    height: 100%;
+    width: 50%;
+    background-color: green;
+    display: inline-block;
+}
+
+.box-top-right {
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+    display: inline-block;
+}
+
+.box-bottom {
+    height: 300px;
+    width: 100%;
+    font-size: 0;
+}
+
+.box-bottom-left, 
+.box-bottom-center, 
+.box-bottom-right {
+    height: 100%;
+    width: 33.33%;
+    display: inline-block;
+}
+
+.box-bottom-left {
+    background-color: gray;
+}
+
+.box-bottom-center {
+    background-color: black;
+}
+
+.box-bottom-right {
+    background-color: orange;
+}
